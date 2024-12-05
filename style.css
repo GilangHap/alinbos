@@ -85,6 +85,12 @@ input[type="number"] {
     border-radius: 4px;
     width: 60px;
     text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+input[type="number"]:focus {
+    outline: none;
+    box-shadow: 0 0 8px #997C70;
 }
 
 button {
@@ -135,7 +141,7 @@ button:hover {
 
 .matrix input:focus {
     outline: none;
-    box-shadow: 0 0 8px rgba(52, 152, 219, 0.7);
+    box-shadow: 0 0 8px #997C70;
 }
 
 /* Styling for the Result Matrix */
